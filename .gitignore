@@ -1,0 +1,10 @@
+# Image assets
+*.jpe?g
+*.jxl
+*.png
+*.svg
+*.tiff?
+*.webp
+
+# PDF artifacts
+*.pdf
