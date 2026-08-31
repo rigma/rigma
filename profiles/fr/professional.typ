@@ -12,10 +12,15 @@
 #cv-entry-continued(
   title: [Senior Software Engineer],
   date: [mai 2024 - juin 2026],
-  description: list(
-    [Refonte de l'ingestion des factures provenant des plateformes de livraison à domicile (Deliveroo et UberEats)],
-    [Développement d'une interface de gestion de la facturation des cuisines partenaires],
-    [Préparation de la mise en place de la facturation électronique],
+  description: block(
+    block([
+      Suite à ma promotion au sein de Taster, j'ai été chargé de reprendre le logiciel de facturation des partenaires. C'est dans ce cadre que j'ai participer à :
+    ])
+    + list(
+      [Refondre l'ingestion des factures provenant des plateformes de livraison à domicile (Deliveroo et UberEats)],
+      [Développer une interface de gestion de la facturation des cuisines partenaires],
+      [Préparer de la mise en place de la facturation électronique],
+    )
   ),
   tags: (
     "Docker",
@@ -32,7 +37,11 @@
   title: [Full Stack Engineer],
   date: [mars 2021 - mai 2024],
   description: block(
-    block(lorem(12))
+    block([
+      Au cours de ma première mission au sein de Taster, je me suis occupé du développement des logiciels utilisés par les cuisines pour passer leurs commandes d'approvisionnement.\
+      \
+      Mes principales réalisations lors cette mission sont :
+    ])
     + list(
       [Développement de l'intégration EDI des commandes faites par les cuisines opérant une marque de Taster chez les distributeurs partenaires],
       [Refonte de l'interface et du système de commandes interne utilisé par les cuisines opérant une marque de Taster],
@@ -43,8 +52,8 @@
     "Docker",
     "Google Cloud Platform",
     "Javascript",
-    "Python",
     "PostgresSQL",
+    "Python",
     "Terraform",
     "Vue.js",
   ),
@@ -56,7 +65,7 @@
   location: [Paris, France],
   date: [oct. 2018 - déc. 2019],
   description: block(
-    block[Durant mon année à Ornikar, j'ai participé au développement des modules liés à l'apprentissage du Code de la route en réalisant les tâches suivantes]
+    block[Durant mon année à Ornikar, j'ai participé au développement des modules liés à l'apprentissage du Code de la route en réalisant les tâches suivantes :]
     + list(
       [Développement et maintien des APIs existantes pour assurer le début de transition vers une architecture en microservices],
       [Participation à la réalisation du cahier des charges de la refonte du module d'apprentissage du Code de la route],
