@@ -1,16 +1,14 @@
-// Imports
 #import "@preview/brilliant-cv:4.1.0": cv-section, cv-skill, h-bar
-
 
 #cv-section("Compétences")
 
 #cv-skill(
   type: [Langues],
-  info: [Français #h-bar() Anglais],
+  info: [Français (natif) #h-bar() Anglais (professionnel)],
 )
 
 #cv-skill(
-  type: [Langages],
+  type: [Programmation],
   info: [
     Javascript / Typescript #h-bar()
     Python #h-bar()
@@ -27,4 +25,13 @@
     Google BigQuery #h-bar()
     PostgreSQL
   ],
+)
+
+#cv-skill(
+  type: [Outils],
+  info: [
+    Docker #h-bar()
+    Git #h-bar()
+    Terraform
+  ]
 )

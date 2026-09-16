@@ -2,7 +2,7 @@
 
 header_quote = "Ingénieur et développeur expérimenté, j'apprécie participer à la conception et au développement de logiciels. Je suis à la recherche d'une nouvelle équipe dans laquelle je pourrais mettre à profit mes compétences pour continuer à évoluer."
 
-cv_footer = "Résumé"
+cv_footer = "CV"
 letter_footer = "Lettre de motivation"
 
 [layout]
@@ -19,7 +19,7 @@ header_font = "Roboto"
 
 [layout.header]
 header_align = "left"
-display_profile_photo = true
+display_profile_photo = false
 profile_photo_radius = "50%"
 info_font_size = "10pt"
 

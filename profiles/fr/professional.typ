@@ -1,14 +1,10 @@
-// Imports
 #import "@preview/brilliant-cv:4.1.0": (
   cv-entry, cv-entry-continued, cv-entry-start, cv-section,
 )
 
 #cv-section("Expérience Professionnelle")
 
-#cv-entry-start(
-  society: [Taster],
-  location: [Paris, France],
-)
+#cv-entry-start(society: [Taster], location: [Paris, France])
 #cv-entry-continued(
   title: [Senior Software Engineer],
   date: [mai 2024 - juin 2026],
@@ -18,6 +14,7 @@
     ])
     + list(
       [Refondre l'ingestion des factures provenant des plateformes de livraison à domicile (Deliveroo et UberEats)],
+      [Concevoir une API pour générer et gérer les factures des partenaires reposant sur leur chiffre d'affaires],
       [Développer une interface de gestion de la facturation des cuisines partenaires],
       [Préparer de la mise en place de la facturation électronique],
     )
@@ -25,6 +22,7 @@
   tags: (
     "Docker",
     "DuckDB",
+    "FastAPI",
     "Google Cloud Platform",
     "Python",
     "PostgreSQL",
@@ -50,6 +48,8 @@
   ),
   tags: (
     "Docker",
+    "FastAPI",
+    "Flask",
     "Google Cloud Platform",
     "Javascript",
     "PostgresSQL",
@@ -79,6 +79,6 @@
   society: [Astrakhan],
   location: [Paris, France],
   date: [mars 2018 - août 2018],
-  description: block[Dans le cadre de mon stage de fin d'études, j'ai rejoins Astrakhan pour les aider à développer un prototype d'application en réalité augmentée],
+  description: block[Dans le cadre de mon stage de fin d'études, j'ai rejoint Astrakhan pour les aider à développer un prototype d'application en réalité augmentée],
   tags: ("C#", "Microsoft Hololens", "Unity"),
 )
