@@ -37,8 +37,7 @@
   date: [March 2021 - May 2024],
   description: block(
     block([
-      My first at Taster was to take part to the evolution of the internal software used by the partners to manage their purchase orders for their kitchens.\ 
-      During this time I've worked on:
+      My first at Taster was to take part to the evolution of the internal software used by the partners to manage their purchase orders for their kitchens. During this time I've worked on:
     ])
     + list(
       [Integrating Taster's furnishers EDI systems to automate partner kitchens purchase orders],

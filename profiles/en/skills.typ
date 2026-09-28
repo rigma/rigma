@@ -8,7 +8,7 @@
 )
 
 #cv-skill(
-  type: [Programming Languages],
+  type: [Tech stack],
   info: [
     Javascript / Typescript #h-bar()
     Python #h-bar()
