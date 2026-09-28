@@ -10,13 +10,17 @@
   date: [May 2024 - June 2026],
   description: block(
     block([
-      Following my promotion, I've been tasked to take back the work on the internal invoicing software used to charge Taster's partners.\ 
-      It's in this context where I've achieved the following tasks:
+      Following my promotion, I took over the internal software used to charge Taster's partners to implement
+      new business rules required by a new invoicing model and to improve its usability the accounting team.
+      It's in this context where I had the opportunity to:
     ])
     + list(
       [Rework the ingestion of invoices coming from food delivery platforms (mainly Deliveroo and UberEats)],
-      [Design an API to generate and manage partners' invoices based on their sales],
-      [Develop an interface to help accountants to manage partner invoicing],
+      [
+        Design a data pipeline controlled by API to generate and manage partners' invoices based on their
+        achieved sales
+      ],
+      [Design and develop an interface to help accountants to manage partner invoicing],
       [Prepare the groundwork to setup electronic invoicing],
     )
   ),
@@ -37,11 +41,14 @@
   date: [March 2021 - May 2024],
   description: block(
     block([
-      My first at Taster was to take part to the evolution of the internal software used by the partners to manage their purchase orders for their kitchens. During this time I've worked on:
+      My first missions at Taster were to take part to the different evolutions made to the internal software
+      used by the supply team and partners to manage their purchases for their kitchen operations. During this
+      period, I've worked on these projects among other things:
     ])
     + list(
-      [Integrating Taster's furnishers EDI systems to automate partner kitchens purchase orders],
-      [Revamping the software to provide more flexibility to partners when placing their orders],
+      [Integrate Taster's furnishers EDI systemes to automate purchase order's sendings],
+      [Build a marketplace-lite interface for partners to provide more flexibility during their orderings],
+      [Design and implement the transition from a _finite state machine_ to an _event-driven architecture_ to manage purchase orders],
       [Helping with the transition from Flask to FastAPI for existing APIs],
     )
   ),
