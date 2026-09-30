@@ -11,7 +11,7 @@
   description: block(
     block([
       Following my promotion, I took over the internal software used to charge Taster's partners to implement
-      new business rules required by a new invoicing model and to improve its usability the accounting team.
+      new business rules required by a new invoicing model and to improve its usability by the accounting team.
       It's in this context where I had the opportunity to:
     ])
     + list(
@@ -46,7 +46,7 @@
       period, I've worked on these projects among other things:
     ])
     + list(
-      [Integrate Taster's furnishers EDI systemes to automate purchase order's sendings],
+      [Integrate Taster's furnishers EDI systems to automate purchase order's sending],
       [Build a marketplace-lite interface for partners to provide more flexibility during their orderings],
       [Design and implement the transition from a _finite state machine_ to an _event-driven architecture_ to manage purchase orders],
       [Helping with the transition from Flask to FastAPI for existing APIs],
