@@ -10,12 +10,19 @@
   date: [mai 2024 - juin 2026],
   description: block(
     block([
-      Suite à ma promotion au sein de Taster, j'ai été chargé de reprendre le logiciel de facturation des partenaires. C'est dans ce cadre que j'ai participer à :
+      Après ma promotion, j'ai repris le logiciel de facturation des partenaires interne pour y changer la
+      méthode de calcul et améliorer son ergonomie. C'est dans ce contexte que j'ai eu l'opportunité de :
     ])
     + list(
       [Refondre l'ingestion des factures provenant des plateformes de livraison à domicile (Deliveroo et UberEats)],
-      [Concevoir une API pour générer et gérer les factures des partenaires reposant sur leur chiffre d'affaires],
-      [Développer une interface de gestion de la facturation des cuisines partenaires],
+      [
+        Concevoir une pipeline de traitement de données controllé par API pour générer et gérer les factures des
+        partenaires en se basant sur leur chiffre d'affaire.
+      ],
+      [
+        Concevoir et développer une interface pour aider les comptables à superviser la facturation des
+        partneraires
+      ],
       [Préparer de la mise en place de la facturation électronique],
     )
   ),
@@ -36,13 +43,20 @@
   date: [mars 2021 - mai 2024],
   description: block(
     block([
-      Au cours de ma première mission au sein de Taster, je me suis occupé du développement des logiciels utilisés par les cuisines pour passer leurs commandes d'approvisionnement.\
-      \
-      Mes principales réalisations lors cette mission sont :
+      Mes premières missions au sein de Taster étaient de participer aux différentes évolutions du logiciel
+      d'achat de fourniture utilisé en interne et par les partenaires pour approvisionner leurs cuisines
+      pour leurs opérations. Durant cette période, j'ai travaillé sur ces différents projets :
     ])
     + list(
-      [Développement de l'intégration EDI des commandes faites par les cuisines opérant une marque de Taster chez les distributeurs partenaires],
-      [Refonte de l'interface et du système de commandes interne utilisé par les cuisines opérant une marque de Taster],
+      [Intégrer les systèmes EDI des fournisseurs de Taster pour automatiser l'envoi des commandes],
+      [
+        Construire une nouvelle interface de commande pour fournir plus de flexibilité aux partenaires lors
+        de leurs achats
+      ],
+      [
+        Concevoir et développer la transition de commandes modélisées avec des _finite state machines_ pour
+        utilisé une _event-driven architecture_
+      ],
       [Participation à l'amélioration des outils techniques internes et au développement de prototypes],
     )
   ),
