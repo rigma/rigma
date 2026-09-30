@@ -16,14 +16,14 @@
     + list(
       [Refondre l'ingestion des factures provenant des plateformes de livraison à domicile (Deliveroo et UberEats)],
       [
-        Concevoir une pipeline de traitement de données controllé par API pour générer et gérer les factures des
+        Concevoir une pipeline de traitement de données controllée par API pour générer et gérer les factures des
         partenaires en se basant sur leur chiffre d'affaire.
       ],
       [
         Concevoir et développer une interface pour aider les comptables à superviser la facturation des
-        partneraires
+        partenaires
       ],
-      [Préparer de la mise en place de la facturation électronique],
+      [Préparer la mise en place de la facturation électronique],
     )
   ),
   tags: (
@@ -44,8 +44,8 @@
   description: block(
     block([
       Mes premières missions au sein de Taster étaient de participer aux différentes évolutions du logiciel
-      d'achat de fourniture utilisé en interne et par les partenaires pour approvisionner leurs cuisines
-      pour leurs opérations. Durant cette période, j'ai travaillé sur ces différents projets :
+      d'achat de fourniture utilisé en interne et par les partenaires pour approvisionner leurs cuisines.
+      Durant cette période, j'ai travaillé sur ces différents projets :
     ])
     + list(
       [Intégrer les systèmes EDI des fournisseurs de Taster pour automatiser l'envoi des commandes],
@@ -54,8 +54,8 @@
         de leurs achats
       ],
       [
-        Concevoir et développer la transition de commandes modélisées avec des _finite state machines_ pour
-        utilisé une _event-driven architecture_
+        Concevoir et développer la transition de commandes modélisées à l'aide de _finite-state machines_ vers
+        une architecture évènementielle pour les rendre plus flexible
       ],
       [Participation à l'amélioration des outils techniques internes et au développement de prototypes],
     )
