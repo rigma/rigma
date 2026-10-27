@@ -1,0 +1,165 @@
+---
+identity:
+  title: Senior Sofware Engineer
+  links:
+    email:
+      displayText: romain.failla@laposte.net
+      href: mailto:romain.failla@laposte.net
+    phone:
+      displayText: 06 17 11 72 62
+      href: tel:+33617117262
+    location: Paris
+    driver: Permis B
+    linkedin: romain-failla
+    github: rigma
+
+headline:
+  title: À propos
+  content: >
+    Ingénieur backend depuis 2018, je suis un développeur confirmé et versatile qui a participé puis mené
+    la conception d'APIs et d'interfaces graphiques. Je suis actuellement à la recherche d'une nouvelle
+    équipe dans laquelle je pourrais mettre à profit mon expérience.
+
+professional:
+  title: Expérience professionnelle
+  journey:
+    - company: Taster
+      location: Paris
+      positions:
+      - title: Senior Software Engineer
+        period:
+          from: mai 2024
+          to: juin 2026
+        achievements:
+        - >
+          J'ai mené la refonte de l'ingestion des rapports de paiements émis par Deliveroo et UberEats
+          pour archiver et comparer \~500k paiements par semaine à l'aide de Google Pub/Sub
+        - >
+          J'ai conçu une nouvelle pipeline de génération de factures d'une centaine de cuisines partenaire
+          pilotée par API afin de réduire le temps passé par les comptables d'une journée de travail et
+          leur laisser plus d'autonomie
+        - >
+          J'ai réalisé une interface avec React pour permettre à une équipe de 3 comptables de suivre les
+          chiffres d'affaires réalisés par les cuisines et piloter la génération de leurs factures en se
+          basant sur eux
+        - >
+          Membre élu du CSE, j'ai représenté les intérêts des salariés de Taster auprès de la direction
+          lors des différentes réunions du comité
+        skills:
+        - Docker
+        - DuckDB
+        - FastAPI
+        - Google Cloud Platform
+        - Python
+        - PostgreSQL
+        - React
+        - Terraform
+        - Typescript
+      - title: Full Stack Engineer
+        period:
+          from: mars 2021
+          to: mai 2024
+        achievements:
+        - >
+          J'ai participé à l'intégration des commandes passées par les cuisines de Taster dans les systèmes
+          EDI de ses fournisseurs pour laisser les acheteurs de Taster s'occuper des cas critiques plutôt
+          que d'envoyer eux-mêmes les commandes de \~100 cuisines
+        - >
+          J'ai aidé à la conception et au développement d'un système de commandes reposant sur une
+          architecture orientée évènements (_event-driven architecture_) pour réduire la maintenance du
+          système et être plus flexible en cas d'imprévus
+        skills:
+        - Docker
+        - FastAPI
+        - Flask
+        - Google Cloud Platform
+        - Javascript
+        - PostgreSQL
+        - Python
+        - Terraform
+
+    - company: Ornikar
+      location: Paris
+      positions:
+      - title: Développeur Backend Junior
+        period:
+          from: oct. 2018
+          to: déc. 2019
+        achievements:
+        - >
+          J'ai développé à l'intégration des APIs externes de réservation de séance dans les centres
+          d'examens de Code N'Go (Bureau Veritas) et Objectif Code (SGS) pour les élèves-candidats
+          de la plateforme.
+        - >
+          J'ai participé à la refonte du module d'apprentissage du Code de la route utilisé par
+          \~2000 élèves par semaine pour permettre d'éditer plus facilement son contenu pédagogique
+          et préparer un déploiement à l'international
+        skills:
+        - AWS
+        - Laravel
+        - MySQL
+        - PHP
+        - PostgreSQL
+
+    # - company: Astrakhan
+    #   location: Paris
+    #   positions:
+    #   - title: Ingénieur stagiaire
+    #     period:
+    #       from: mars 2018
+    #       to: août 2018
+
+education:
+  title: Formation
+  degrees:
+  - name: Diplôme d'Ingénieur de l'Efrei
+    institution: Efrei
+    year: 2018
+    notes:
+    - "Modules : mathématiques, physique, programmation informatique, communication et management"
+    - "Spécialisation : Imagerie et Réalité Virtuelle"
+
+  - name: Licence Sciences, Technologies, Santé
+    institution: Université Paris-Est Marne-la-Vallée
+    year: 2016
+
+skills:
+  title: Compétences
+
+  naturalLanguages:
+    title: Langues
+    items:
+    - displayText: Français
+      level: C2
+    - displayText: Anglais
+      level: C1
+
+  languages:
+    title: Langages informatiques
+    items:
+    - Javascript / Typescript
+    - Rust
+    - Python
+    - SQL
+
+  frameworks:
+    title: Frameworks
+    items:
+    - FastAPI
+    - React Router
+    - React
+    - Solid.js
+
+  cloud:
+    title: Infrastructure & cloud
+    items:
+    - Google Cloud (Cloud Run, Pub/Sub, Cloud SQL)
+    - Docker
+    - Terraform
+    - PostgreSQL
+
+  tooling:
+    title: Outils
+    items:
+    - Git
+    - CI/CD (Google Cloud build, Github Actions)
