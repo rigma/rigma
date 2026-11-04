@@ -16,9 +16,10 @@ identity:
 headline:
   title: À propos
   content: >
-    Ingénieur backend depuis 2018, je suis un développeur confirmé et versatile qui a participé puis mené
-    la conception d'APIs et d'interfaces graphiques. Je suis actuellement à la recherche d'une nouvelle
-    équipe dans laquelle je pourrais mettre à profit mon expérience.
+    Ingénieur backend depuis 2018, je suis un développeur confirmé et versatile qui a mené la conception
+    d'APIs et d'interfaces graphiques. Rigoureux et curieux, je suis un ingénieur qui aime découvrir
+    de nouvelles technologies et les mettre en application. Actuellement à la recherche d'une nouvelle
+    équipe, je serai ravi de vous aider à développer vos logiciels.
 
 professional:
   title: Expérience professionnelle
@@ -33,18 +34,19 @@ professional:
         achievements:
         - >
           J'ai mené la refonte de l'ingestion des rapports de paiements émis par Deliveroo et UberEats
-          pour archiver et comparer \~500k paiements par semaine à l'aide de Google Pub/Sub
+          pour archiver et faire du matching comptables sur \~500k paiements par semaine à l'aide de Google
+          Pub/Sub
         - >
-          J'ai conçu une nouvelle pipeline de génération de factures d'une centaine de cuisines partenaire
-          pilotée par API afin de réduire le temps passé par les comptables d'une journée de travail et
-          leur laisser plus d'autonomie
+          J'ai conçu une nouvelle pipeline de génération de factures d'une centaine de cuisines partenaires
+          pilotée par API pour réduire de 50 % le temps passé par les comptables à les établir et leur
+          laisser plus d'autonomie
         - >
           J'ai réalisé une interface avec React pour permettre à une équipe de 3 comptables de suivre les
           chiffres d'affaires réalisés par les cuisines et piloter la génération de leurs factures en se
           basant sur eux
         - >
-          Membre élu du CSE, j'ai représenté les intérêts des salariés de Taster auprès de la direction
-          lors des différentes réunions du comité
+          Membre élu du CSE, j'ai représenté les intérêts des salariés de Taster auprès de la direction et
+          d'être un acteur dans la vie de l'entreprise
         skills:
         - Docker
         - DuckDB
